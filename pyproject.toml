@@ -1,0 +1,22 @@
+[project]
+name = "shaftpilot"
+version = "0.1.0"
+description = "An AI agent that designs machine shafts and proves its numbers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Rudra Bhartia" }]
+dependencies = ["anthropic>=0.40"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+shaftpilot = "shaftpilot.cli:main"
+
+[tool.setuptools]
+packages = ["shaftpilot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

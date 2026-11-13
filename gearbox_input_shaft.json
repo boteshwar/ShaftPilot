@@ -1,0 +1,14 @@
+{
+  "request": "Input shaft of a small gearbox: 5 kW electric motor at 1450 rpm, spur gear with 2.5 kN radial force 120 mm from the left bearing, 300 mm bearing span, safety factor 2, as cheap as possible.",
+  "power_kw": 5,
+  "speed_rpm": 1450,
+  "radial_force_n": 2500,
+  "span_mm": 300,
+  "load_position_mm": 120,
+  "required_safety": 2.0,
+  "objective": "min_cost",
+  "assumptions": [
+    "Shaft is machined, with a shoulder at the gear seat (Kf = 1.7, Kfs = 1.5)",
+    "Deep groove ball bearings, slope limit 0.001 rad"
+  ]
+}

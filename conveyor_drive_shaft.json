@@ -1,0 +1,14 @@
+{
+  "request": "Drive shaft for a belt conveyor: 15 kW at 90 rpm, belt pulley load 12 kN in the middle of a 600 mm bearing span, safety factor 2.5, must fit in 80 mm, lightest possible.",
+  "power_kw": 15,
+  "speed_rpm": 90,
+  "radial_force_n": 12000,
+  "span_mm": 600,
+  "required_safety": 2.5,
+  "objective": "min_mass",
+  "max_diameter_mm": 80,
+  "assumptions": [
+    "Pulley sits at mid-span",
+    "Machined surface, keyway at the pulley seat (Kf = 1.7, Kfs = 1.5)"
+  ]
+}
