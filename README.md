@@ -1,4 +1,4 @@
-# ShaftPilot 🛠️🤖
+# ShaftPilot 
 
 **An AI agent that designs machine shafts and proves its numbers.**
 
